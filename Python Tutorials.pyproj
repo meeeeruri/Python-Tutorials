@@ -1,0 +1,48 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>6f86c1fc-2376-40f2-be3c-0aa185f708d4</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>016_modular_programming_intro.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>Python Tutorials</Name>
+    <RootNamespace>Python Tutorials</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="007.1_for_Loop.py" />
+    <Compile Include="007.2_while_Loop.py" />
+    <Compile Include="006_condition.py" />
+    <Compile Include="008.1_list.py" />
+    <Compile Include="008.2_tuple.py" />
+    <Compile Include="009_iteration_by_item.py" />
+    <Compile Include="010_string_methods.py" />
+    <Compile Include="011_slice_operator.py" />
+    <Compile Include="012_function.py" />
+    <Compile Include="013_read_textfile.py" />
+    <Compile Include="014_writing_textfile.py" />
+    <Compile Include="015_.count%28%29and.find%28%29.py" />
+    <Compile Include="016_modular_programming_intro.py" />
+    <Compile Include="myonesixmoduletext.py" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>

@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32516.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Python Tutorials", "Python Tutorials.pyproj", "{6F86C1FC-2376-40F2-BE3C-0AA185F708D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "方案項目", "方案項目", "{FC25D5B1-B344-419B-8B92-1976EDA1A826}"
+	ProjectSection(SolutionItems) = preProject
+		013text.txt = 013text.txt
+		014text.txt = 014text.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F86C1FC-2376-40F2-BE3C-0AA185F708D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F86C1FC-2376-40F2-BE3C-0AA185F708D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3E6136D2-050C-496C-AC2B-E1F8C1518A1F}
+	EndGlobalSection
+EndGlobal
