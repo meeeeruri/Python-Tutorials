@@ -8,3 +8,4 @@ print(math.radians(60))
 
 # import 016_zmy_module
 print(myonesixmoduletext.myFunc(5))
+print(myonesixmoduletext.anotherFunc(1090291))
