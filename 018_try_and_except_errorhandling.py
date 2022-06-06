@@ -1,3 +1,6 @@
 text = input('username: ')
-number = int(text)
-print(number)
+try:
+    number = int(text)
+    print(number)
+except:
+    print('Error: Invalid Username.')
