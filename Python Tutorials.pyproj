@@ -34,6 +34,10 @@
     <Compile Include="014_writing_textfile.py" />
     <Compile Include="015_.count%28%29and.find%28%29.py" />
     <Compile Include="016_modular_programming_intro.py" />
+    <Compile Include="017_optional_parameters.py" />
+    <Compile Include="018_try_and_except_errorhandling.py" />
+    <Compile Include="019_global_vs_local_variable.py" />
+    <Compile Include="020_classes_and_objects.py" />
     <Compile Include="myonesixmoduletext.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
